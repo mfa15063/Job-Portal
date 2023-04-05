@@ -1,16 +1,39 @@
 import { IonContent, IonPage } from '@ionic/react';
-import Rocket from '../components/Rocket';
-import Header from '../components/Header';
 import './Home.scss';
 
-const Home = () => {
+const Home = (props) => {
   return (
-    <IonPage>
-      <Header />
-      <IonContent fullscreen>
-        <Rocket />
-      </IonContent>
-    </IonPage>
+    // <IonPage>
+    //   <IonContent>
+    //     <h1>Home</h1>
+    //   </IonContent>
+    // </IonPage>
+    <>
+    <h1>kkk</h1>
+    <h1>jjj</h1>
+    <h1>jjj</h1>
+    <h1>jjj</h1>
+    <h1>jjj</h1>
+    <h1>jjj</h1>
+    <h1>jjj</h1>
+    <h1>jjj</h1>
+    <h1>jjj</h1>
+    <h1>jjj</h1>
+    <h1>jjj</h1>
+    <h1>jjj</h1>
+    <h1>jjj</h1>
+    <h1>jjj</h1>
+    <h1>jjj</h1>
+    <h1>jjj</h1>
+    <h1>jjj</h1>
+    <h1>jjj</h1>
+    <h1>jjj</h1>
+    <h1>jjj</h1>
+    <h1>jjj</h1>
+    <h1>jjj</h1>
+    <h1>jjj</h1>
+    <h1>jjj</h1>
+    </>
   );
 };
 

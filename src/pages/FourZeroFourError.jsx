@@ -1,12 +1,10 @@
 import { IonContent, IonIcon, IonPage } from "@ionic/react";
 import { chevronForwardOutline } from 'ionicons/icons';
 import "./FourZeroFourError.scss";
-import Header from "../components/Header";
 
-const Home = () => {
+const FourZeroFourError = () => {
   return (
     <IonPage>
-      <Header />
       <IonContent fullscreen>
         <section className="page_404">
           <div className="container">
@@ -36,4 +34,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default FourZeroFourError;
